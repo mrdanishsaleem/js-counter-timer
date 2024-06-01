@@ -5,3 +5,23 @@
 .heading {
   text-align: center;
 }
+
+#timer {
+  font-size: 36px;
+  color: #333;
+}
+
+button {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
