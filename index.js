@@ -16,4 +16,18 @@ function resetTimer() {
   seconds = 0;
   minutes = 0;
   hours = 0;
+  updateTimerDisplay();
+}
+
+function updateTimer() {
+  seconds++;
+  if (seconds >= 60) {
+    seconds = 0;
+    minutes++;
+    if (minutes >= 60) {
+      minutes = 0;
+      hours++;
+    }
+  }
+  updateTimerDisplay;
 }
